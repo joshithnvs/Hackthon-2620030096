@@ -1,0 +1,26 @@
+SAMPLE OUTPUT 
+1a)Number of family members: 4
+Water consumed in litres: 250.75
+House number: 101
+Water usage status: A
+-----------------------------------
+-----------------------------------
+
+
+1b)Scenario 1 (Consumption < 500 litres):
+
+Enter water consumption in litres: 450
+Water bill amount: Rs. 100.0
+
+
+Scenario 2 (Consumption > 500 litres):
+
+Enter water consumption in litres: 650
+Water bill amount: Rs. 200.0
+
+-------------------------------
+-------------------------------
+
+1c)Enter morning water usage: 150
+Enter evening water usage: 120
+Total water consumption: 270 litres
