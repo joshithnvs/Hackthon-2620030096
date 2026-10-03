@@ -1,0 +1,12 @@
+SAMPLE OUTPUT 
+
+Scenario 1 (Consumption < 500 litres):
+
+Enter water consumption in litres: 450
+Water bill amount: Rs. 100.0
+
+
+Scenario 2 (Consumption > 500 litres):
+
+Enter water consumption in litres: 650
+Water bill amount: Rs. 200.0
