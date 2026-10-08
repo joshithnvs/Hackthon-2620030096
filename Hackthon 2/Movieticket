@@ -1,24 +1,24 @@
 import java.util.Scanner;
 
 public class MovieTicket {
-    // Data members
+    
     private String movieName;
     private double ticketPrice;
     private int numberOfTickets;
 
-    // Parameterized constructor
+   
     public MovieTicket(String movieName, double ticketPrice, int numberOfTickets) {
         this.movieName = movieName;
         this.ticketPrice = ticketPrice;
         this.numberOfTickets = numberOfTickets;
     }
 
-    // Calculates total ticket amount: ticketPrice * numberOfTickets
+   
     public double calculateTotal() {
         return ticketPrice * numberOfTickets;
     }
 
-    // Provides a 10% discount if numberOfTickets >= 5, otherwise 0
+    
     public double calculateDiscount() {
         if (numberOfTickets >= 5) {
             return calculateTotal() * 0.10;
@@ -26,12 +26,10 @@ public class MovieTicket {
         return 0.0;
     }
 
-    // Calculates final amount after deducting the discount
     public double calculateFinalAmount() {
         return calculateTotal() - calculateDiscount();
     }
 
-    // Displays the complete booking bill with monetary values formatted to two decimal places
     public void displayBill() {
         System.out.println("\n--- Booking Bill ---");
         System.out.println("Movie Name: " + movieName);
@@ -45,7 +43,7 @@ public class MovieTicket {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Reading input values
+       
         System.out.print("Enter Movie Name: ");
         String movieName = scanner.nextLine();
 
