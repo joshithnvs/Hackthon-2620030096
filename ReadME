@@ -24,3 +24,19 @@ Water bill amount: Rs. 200.0
 1c)Enter morning water usage: 150
 Enter evening water usage: 120
 Total water consumption: 270 litres
+
+SAMPLE OUTPUT 
+Movieticket 
+
+Enter Movie Name: top gun
+Enter Ticket Price: 2000
+Enter Number of Tickets: 4
+
+--- Booking Bill ---
+Movie Name: top gun
+Ticket Price: $2000.00
+Number of Tickets: 4
+Total Amount: $8000.00
+Discount: $0.00
+Final Amount Payable: $8000.00
+
